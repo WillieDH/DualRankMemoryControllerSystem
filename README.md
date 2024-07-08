@@ -13,7 +13,7 @@ This repository contains the Verilog and SystemVerilog source code for a Single 
 
 ## RAM Controller Design
 
-The SDR Dual-Rank RAM Memory Controller is designed to manage memory operations. It utilizes a 19-bit command input (`command`) and operates on a positive clock edge (`clk`). The memory controller supports dual-rank configuration with each rank consisting of 4 memory banks, each bank having 128 locations of 8-bit data width.
+The SDR Dual-Rank RAM Controller is designed to manage memory operations. It utilizes a 19-bit command input (`command`) and operates on a positive clock edge (`clk`). The memory controller supports dual-rank configuration with each rank consisting of 4 memory banks, each bank having 128 locations of 8-bit data width.
 
 - **Inputs and Outputs:**
   - **RAM_TOP Module:**
